@@ -38,7 +38,7 @@ def update_from_checkboxes():
     st.session_state.octal_input = f"{u}{g}{o}"
 
 st.title("🛡️ Calculadora de Permissões Linux/windows")
-st.markdown("Converta, audite e gere comandos entre Linux e Windows.")
+st.markdown("Converte e gere comandos entre Linux e Windows.")
 
 # --- Área de Input Rápido (Bidirecional) ---
 st.write("### ⚡ Input Rápido")
