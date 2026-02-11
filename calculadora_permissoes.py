@@ -2,7 +2,7 @@ import streamlit as st
 
 # Configuração da página
 st.set_page_config(
-    page_title="Permission Master",
+    page_title="Calculadora de Permissões Linux/windows",
     page_icon="🛡️",
     layout="centered"
 )
@@ -37,7 +37,7 @@ def update_from_checkboxes():
     o = (4 if st.session_state.or_ else 0) + (2 if st.session_state.ow else 0) + (1 if st.session_state.ox else 0)
     st.session_state.octal_input = f"{u}{g}{o}"
 
-st.title("🛡️ Permission Master Converter")
+st.title("🛡️ Calculadora de Permissões Linux/windows")
 st.markdown("Converta, audite e gere comandos entre Linux e Windows.")
 
 # --- Área de Input Rápido (Bidirecional) ---
